@@ -38,7 +38,7 @@ modules:
       - kernel-modules-extra
       # - kernel-uki-virt*
       - kmod*
-      - *kmod
+      - nct*
       - gcadapter_oc*
 
   - type: bling # configure what to pull in from ublue-os/bling
