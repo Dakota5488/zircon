@@ -36,6 +36,8 @@ modules:
       - kernel-modules
       - kernel-modules-core
       - kernel-modules-extra
+      - kernel-uki-virt
+      - kmod-xpadneo
 
   - type: bling # configure what to pull in from ublue-os/bling
     install:
