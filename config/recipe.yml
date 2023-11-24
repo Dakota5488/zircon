@@ -29,9 +29,16 @@ modules:
       # - micro
       starship
       kernel-cachyos-rt
+      kernel-cachyos-rt-core
+      kernel-cachyos-rt-modules
       VirtualBox
       android-tools
       steam
+      libcap-ng
+      libcap-ng-devel
+      procps-ng
+      procps-ng-devel
+      uksmd
     remove:
       - kernel
       - kernel-core
@@ -63,7 +70,7 @@ modules:
     custom-flatpaks: # this section is optional
       # - Celluloid: io.github.celluloid_player.Celluloid
       # - Krita: org.kde.krita
-
+      # - Steam
   - type: script
     scripts:
       # this sets up the proper policy & signing files for signed images to work
