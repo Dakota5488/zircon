@@ -47,6 +47,7 @@ modules:
       - kernel-modules-extra
       # - kernel-uki-virt*
       - kmod*
+      - openrazer*
       - nct*
       - gcadapter_oc*
 
