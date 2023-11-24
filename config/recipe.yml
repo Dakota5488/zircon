@@ -52,6 +52,7 @@ modules:
       - nct*
       - gcadapter_oc*
       - ryzen-smu*
+      - winesync*
 
   - type: bling # configure what to pull in from ublue-os/bling
     install:
