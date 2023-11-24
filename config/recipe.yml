@@ -51,6 +51,7 @@ modules:
       - openrgb*
       - nct*
       - gcadapter_oc*
+      - ryzen-smu*
 
   - type: bling # configure what to pull in from ublue-os/bling
     install:
