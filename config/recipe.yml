@@ -38,8 +38,8 @@ modules:
       - kernel-modules-core
       - kernel-modules-extra
       # - kernel-uki-virt*
-      - kmod*
-      - nct*
+      # - kmod*
+      # - nct*
 
   - type: bling # configure what to pull in from ublue-os/bling
     install:
