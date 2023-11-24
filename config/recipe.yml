@@ -4,7 +4,7 @@ name: zircon
 description: A starting point for further customization of uBlue images. Make your own! https://ublue.it/making-your-own/
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: ghcr.io/ublue-os/bazzite
 image-version: 39 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -38,16 +38,17 @@ modules:
       libcap-ng-devel
       procps-ng
       procps-ng-devel
-      uksmd
+      uksmd-rawhide
     remove:
       - kernel
       - kernel-core
       - kernel-modules
       - kernel-modules-core
       - kernel-modules-extra
-      # - kernel-uki-virt*
-      # - kmod*
-      # - nct*
+      - kernel-uki-virt*
+      - kmod*
+      - nct*
+      - gcadapter_oc*
 
   - type: bling # configure what to pull in from ublue-os/bling
     install:
